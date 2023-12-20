@@ -1,17 +1,17 @@
 # CSci 144 - Intelligent Systems | Coursework 3
-## Fuzzy Logic System Documentation
+## CPU Fan Control using Fuzzy Logic System Documentation
 
 ### Overview
 
-This Python script implements a simple Forward Chaining System with a graphical user interface (GUI) using Tkinter. The system allows users to input facts and rules, perform forward chaining inference, and view the resulting facts.
+This Python script implements a Fuzzy Control system using the Tkinter library for the graphical user interface (GUI) and the scikit-fuzzy library for fuzzy logic. The system takes user inputs for temperature and frequency, applies fuzzy control rules, and outputs the corresponding fan speed.
 
 
 ### Usage
 
-1. Run the script (forward_chaining.py).
-2. Enter facts and rules using the GUI.
-3. Click "Generate Facts" to perform forward chaining.
-4. View the generated facts and new facts in the text area.
+1. Run the script (fuzzy_fan_speed_control.py).
+2. Enter the temperature (0 - 100°C) and frequency (0 - 4.5GHz) in the respective entry fields.
+3. Click "Calculate Fan Speed" to compute and display the fan speed and its classification.
+4. Optionally, click "Show Graph" to visualize the fuzzy membership functions.
 
 
 ### Note: 
