@@ -8,14 +8,7 @@ This Python script implements a Fuzzy Control system using the Tkinter library f
 
 ### Usage
 
-1. Run the script (fuzzy_fan_speed_control.py).
+1. Run the script (CPU_Fan_Control.py).
 2. Enter the temperature (0 - 100°C) and frequency (0 - 4.5GHz) in the respective entry fields.
 3. Click "Calculate Fan Speed" to compute and display the fan speed and its classification.
 4. Optionally, click "Show Graph" to visualize the fuzzy membership functions.
-
-
-### Note: 
-
-- "if A and B, then C" - this format won't work, i have to fix this.
-- use this format instead, "A and B, C"
-
